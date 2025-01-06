@@ -15,6 +15,7 @@
   "linked_doctype",
   "linked_document",
   "workspace",
+  "default_channel_id",
   "section_break_evg4",
   "is_direct_message",
   "is_thread",
@@ -187,6 +188,12 @@
    "fieldtype": "Check",
    "label": "Is DM Thread",
    "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "default_channel_id",
+   "fieldtype": "Check",
+   "label": "Default Channel Id"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -200,7 +207,7 @@
    "link_fieldname": "channel_id"
   }
  ],
- "modified": "2024-12-08 01:24:55.359995",
+ "modified": "2025-01-06 11:26:52.379818",
  "modified_by": "Administrator",
  "module": "Raven Channel Management",
  "name": "Raven Channel",

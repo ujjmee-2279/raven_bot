@@ -19,6 +19,7 @@ class RavenChannel(Document):
 
 		channel_description: DF.SmallText | None
 		channel_name: DF.Data
+		default_channel_id: DF.Check
 		is_ai_thread: DF.Check
 		is_archived: DF.Check
 		is_direct_message: DF.Check
